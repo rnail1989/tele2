@@ -1,10 +1,7 @@
 public class Tariff {
-    String id;
-
-
-    String name;
-    int price;
-    String totalGb;
+    public String id;
+    public int price;
+    public String totalGb;
     boolean isVk;
     boolean isFb;
     boolean isInts;
@@ -12,5 +9,4 @@ public class Tariff {
     boolean isTg;
     String buySim;
     String buyUrl;
-}
 }
